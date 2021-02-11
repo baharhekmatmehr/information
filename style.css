@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+
+         
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: rgb(69,72,77); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    height: 99vh;
+
+}
+
+header{
+
+}
+
+header nav{
+    width: 100%;
+    background-color: #fff;
+    max-height: 150px;
+    padding: 15px;
+    /* background-color: #000; */
+    opacity: 0.4;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: rgb(69,72,77); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+header nav .nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav .nav-bar .nav-bar-right{
+    padding-left: 29px;
+    
+}
+
+header nav .nav-bar .nav-bar-right a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 80px;
+    font-size: 1.4rem;
+}
+
+
+header nav .nav-bar .nav-bar-left{
+    margin-left: 29px;
+    
+}
+
+
+header nav .nav-bar .nav-bar-left a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 80px;
+    font-size: 1.4rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
