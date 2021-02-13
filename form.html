@@ -23,10 +23,11 @@
         </nav>
     </header>
     <main>
-        <form action="">
+        
             <div class="form">
                 <div class="login">
                     <span>login</span>
+                    <form id="login" method="POST">
                     <div class="text-box">
                         <input type="text" placeholder="username" name="box" value="">
                     </div>
@@ -34,31 +35,47 @@
                         <input type="password" placeholder="password" name="box" value="">
                     </div>
                     <input type="button" class="btn" value="sign in">
+                </form>
                 </div>
+
                 <div class="register">
-                    <span>register</span>
-                    <div class="text-box">
-                        <input type="text" placeholder="Username" name="box" value="">
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Email" name="box" value="">
-                    </div>
-                    <div class="text-box">
-                        <input type="password" placeholder="Password" name="box" value="">
-                    </div>
-                    <div>
-                        <input type="password" placeholder="Confirm Password" name="box" value="">
-                    </div>
-                    <div>
-                        <label for="robat">
-                            <input type="checkbox" name="robat" id="robat">Im Not a Robat
-                        </label>
-                    </div>
-                            <input type="button" class="btn" value="register">
-                        </dir>
-                    </div>
+                    <form id="register" method="POST">
+                        <span>Register</span>
+                        <div class="text-box">
+                            <label>First Name</label> 
+                            <br>
+                            <input type="text" placeholder="Enter Your First Name" name="fname" id="name">
+                            <br>
+                            <label>Last Name</label>
+                            <br>
+                            <input type="text" placeholder="Enter Your Last Name" name="lname" id="name">
+                            <br>
+                            <label>Email</label>
+                            <br>
+                            <input type="text" placeholder="Enter Your Email" name="email" id="name">
+                            <br>
+                            <label>Your Age</label>
+                            <br>
+                            <input type="number" placeholder="Enter Your Age" name="age" id="name">
+                            <br>
+                            <label> Gender :</label>
+                            <br>
+                            <input type="radio" name="gender" id="male">
+                            <label id="male">Male & </label>
+                            <input type="radio" name="gender" id="female"> 
+                            <label id="female" >Female</label>
+                            <br>
+
+                        </div>
+                        <div>
+                            <label for="robat">
+                                <input type="checkbox" name="robat" id="robat">Im Not a Robat
+                            </label>
+                        </div>
+                                <input type="submit" class="btn" value="submit" name="submit" id="submit">
+                    </form>
                 </div>
             </div>
-        </form>
+        
     </main>
 </body>
