@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="nav-bar-left">
+                    <a href="./form.html">join us</a>
+                </div>
+                <div class="nav-bar-right">
+                    <a href="#">contact us</a>
+                    <a href="#">dissertion</a>
+                    <a href="#">About us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+            <div class="form">
+                <div class="login">
+                    <span>login</span>
+                    <form id="login" method="POST">
+                    <div class="text-box">
+                        <input type="text" placeholder="username" name="box" value="">
+                    </div>
+                    <div class="text-box">
+                        <input type="password" placeholder="password" name="box" value="">
+                    </div>
+                    <input type="button" class="btn" value="sign in">
+                </form>
+                </div>
+
+                <div class="register">
+                    <form id="register" method="POST">
+                        <span>Register</span>
+                        <div class="text-box">
+                            <label>First Name</label> 
+                            <br>
+                            <input type="text" placeholder="Enter Your First Name" name="fname" id="name">
+                            <br>
+                            <label>Last Name</label>
+                            <br>
+                            <input type="text" placeholder="Enter Your Last Name" name="lname" id="name">
+                            <br>
+                            <label>Email</label>
+                            <br>
+                            <input type="text" placeholder="Enter Your Email" name="email" id="name">
+                            <br>
+                            <label>Your Age</label>
+                            <br>
+                            <input type="number" placeholder="Enter Your Age" name="age" id="name">
+                            <br>
+                            <label> Gender :</label>
+                            <br>
+                            <input type="radio" name="gender" id="male">
+                            <label id="male">Male & </label>
+                            <input type="radio" name="gender" id="female"> 
+                            <label id="female" >Female</label>
+                            <br>
+
+                        </div>
+                        <div>
+                            <label for="robat">
+                                <input type="checkbox" name="robat" id="robat">Im Not a Robat
+                            </label>
+                        </div>
+                                <input type="submit" class="btn" value="submit" name="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+        
+    </main>
+</body>
