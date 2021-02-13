@@ -78,12 +78,35 @@ header nav .nav-bar .nav-bar-left a{
 
 
 
-.middle{
+.bahar1{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 17%;
+    transform: translate(-50% , -50%);
+
+}
+.bahar2{
+    position: absolute;
+    top: 50%;
+    left: 38%;
     transform: translate(-50% , -50%);
 }
+.bahar3{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50% , -50%);
+}
+.bahar4{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50% , -50%);
+}
+
+
+
+
 
 .card{
     cursor: pointer;
@@ -100,7 +123,7 @@ header nav .nav-bar .nav-bar-left a{
 }
 
 .front img{
-    /* height:0%; */
+    height:100%;
     opacity: 0.2;
 }
 
@@ -134,3 +157,4 @@ header nav .nav-bar .nav-bar-left a{
     transform: perspective(600px) rotateY(0deg);
 
 }
+
